@@ -17,7 +17,7 @@ let tasks = [
 function addTask(title) {
     const task = { isDone: false }
 
-    // やることのタイトルを設定(このままだと、すべてのタイトルがHello Worldになってしまう！)
+    // やることのタイトルを設定した(このままだと、すべてのタイトルがHello Worldになってしまう！)
     task.title = title
 
     // 以降は無視して良い
